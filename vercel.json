@@ -1,14 +1,6 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/models/(.*)",
-        "dest": "/models/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
   
